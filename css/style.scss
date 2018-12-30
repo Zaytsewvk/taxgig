@@ -1,0 +1,189 @@
+$letterSpacing: 0.3px;
+$fontFamily: 'Work Sans';
+$colorGreen: #86BE26;
+$colorBody: #fdfdfd;
+$colorBase: #292F42;
+$borderRadius: 5px;
+
+
+body {
+	font-family: $fontFamily, sans-serif;
+	background: $colorBody;
+}
+* {
+	box-sizing: border-box;
+}
+.disabled {
+	display: none;
+}
+.active {
+	display: block;
+}
+
+	/*HEADER*/
+.container {
+	padding-left: 22px;
+	padding-right: 22px;
+}
+.header {
+	background: $colorBody;
+	box-shadow: 0px 1px 10px rgba(41, 47, 66, 0.1);
+	padding-top: 16px;
+	padding-bottom: 16px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+	
+	&_logo {
+		display: inline-block;
+	}
+	&_active_logo-img {
+		width: 120%;
+	}
+	&_burger {
+		width: 24px;
+		height: 24px;
+		position: relative;
+		top: 12px;
+		left: 100%;margin-left: -24px;
+		right: 0px;
+		display: block;
+		cursor: pointer;
+	}
+	&_burger span, &_burger span::before, &_burger span::after {
+		width: 20px;
+		height: 2px;
+		background: $colorBase;
+		position: absolute;
+		top: 50%; margin-top: -1px;
+		left: 50%; margin-left: -10px;
+		border-radius: $borderRadius;
+		transition: .5s;
+	}
+	&_burger span::before, &_burger span::after {
+		content: "";
+		display: block;
+	}
+	&_burger span::before {
+		transform: translateY(-5px);
+	}
+	&_burger span::after {
+		transform: translateY(5px);
+	}
+	&_menu {
+		display: none;
+		background: $colorBase;
+	}
+	&_menu-mobile {
+		display: block;
+		position: relative;
+		padding-top: 33px;
+	}
+	&_menu-mobile a {
+		display: block;
+		letter-spacing: $letterSpacing;
+		font: 600 24px $fontFamily;
+		margin-bottom: 24px;
+		color: $colorBody;
+	}
+	&_menu-mobile button {
+		width: 100%;
+		padding: 16px 68px;
+		letter-spacing: $letterSpacing;
+		font: 600 14px $fontFamily;
+		color: $colorBody;
+		text-transform: uppercase;
+		border: 0;
+		border-radius: $borderRadius;
+		background: linear-gradient(247.78deg, #C4E58B -41.78%, #86BE26 63.15%);
+		box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+		margin-top: 121px;
+	}
+}
+.header_active {
+	background: $colorBase;
+	
+	.header_burger span, .header_burger span::before, .header_burger span::after {
+		background: $colorBody;
+	}
+	.header_burger span::after {
+		display: none;
+	}
+	.header_burger span {
+		transform: rotate(-45deg);
+	}
+	.header_burger span::before {
+		transform: rotate(90deg) translateY(0);
+	}
+	& .header_menu {
+		display: block;	
+	}
+	& .header_menu-mobile {
+		display: block;
+	}
+}
+.header-LT-normal {
+	display: none;
+}
+
+@media (min-width: 768px) {
+	.header_menu-mobile {
+		text-align: center;
+
+		& button {
+			width: 345px;
+		}
+	}
+	
+}
+@media (min-width: 1024px) {
+	.header {
+		display: none;
+	}
+	.header-LT-normal {
+		display: block;
+		box-shadow: 0px 1px 4px rgba(41, 47, 66, 0.05);
+		padding-top: 20px;
+		padding-bottom: 20px;
+		position: relative;
+
+		&_menu {
+			text-align: right;
+			margin: 4px 0;
+		}
+		&_menu a {
+			text-transform: uppercase;
+			font: 600 14px $fontFamily;
+			letter-spacing: $letterSpacing;
+			display: inline-block;
+			text-align: center;
+			margin-right: 56px;
+			color: $colorBase;
+		}
+		&_menu a:hover {
+			color: $colorGreen;
+			transition: .2s;
+			text-decoration: none;
+		}
+		&_menu_btn-login {
+			border: 1px solid $colorBase;
+			border-radius: $borderRadius;
+			padding: 8px 20px;
+		}
+		&_menu .header-LT-normal_menu_btn-login:hover {
+			background: $colorGreen;
+			color: $colorBody;
+		}
+		&_menu_btn-pro::after {
+			content: "\2192";
+			position: relative;
+			margin-left: 15px;
+			font-size: 20px;
+		}
+		&_menu .header-LT-normal_menu_btn-pro {
+			margin-right: 0;
+		}
+	}
+}
