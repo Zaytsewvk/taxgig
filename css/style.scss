@@ -4,6 +4,7 @@ $colorGreen: #86BE26;
 $colorBody: #fdfdfd;
 $colorBase: #292F42;
 $borderRadius: 5px;
+$lineHeight: 24px;
 
 
 body {
@@ -21,13 +22,16 @@ body {
 }
 
 	/*HEADER*/
+header {
+	box-shadow: 0px 1px 10px rgba(41, 47, 66, 0.1);
+}
 .container {
 	padding-left: 22px;
 	padding-right: 22px;
 }
 .header {
 	background: $colorBody;
-	box-shadow: 0px 1px 10px rgba(41, 47, 66, 0.1);
+	border: 0;
 	padding-top: 16px;
 	padding-bottom: 16px;
 	position: fixed;
@@ -35,7 +39,9 @@ body {
 	left: 0;
 	width: 100%;
 	z-index: 10;
-	
+	padding-left: 0;
+	padding-right: 0;
+
 	&_logo {
 		display: inline-block;
 	}
@@ -128,7 +134,89 @@ body {
 	display: none;
 }
 
+	/*MAIN*/
+.main {
+	position: relative;
+	top: 100px;
+	left: 0;
+
+	&-links a {
+		display: block;
+		color: #6F7583;
+		font: 500 14px $fontFamily;
+		letter-spacing: $letterSpacing;
+		line-height: $lineHeight;
+		margin-bottom: 8px;
+	}
+	&-links .main-links_another-pos {
+		color: #B3B3C6;
+	}
+	&-links .main-links_active {
+		color: $colorBase;
+	}
+	.hr {
+		width: 100%;
+		height: 1px;
+		display: block;
+		background: #292F42;
+		opacity: 0.05;
+		border-radius: 1px;
+		border: 0;
+		margin-top: 16px;
+	}
+	
+	&-content_way-text {
+		font: 500 14px $fontFamily;
+		letter-spacing: $letterSpacing;
+		line-height: $lineHeight;
+		color: $colorBase;
+	}
+	&-content_way-text::before {
+		content: "<";
+		margin-right: 16px;
+		font-size: 16px;
+	}
+
+	.main-content {
+		&_title {
+			font: 600 34px $fontFamily;
+			line-height: 40px;
+			letter-spacing: $letterSpacing;
+			color: $colorBase;
+			margin: 24px 0;
+		}
+		&_description {
+			&-img {
+				float: left;
+			}
+			&-text {
+				color: #6F7583;
+				font: 500 16px $fontFamily;
+				margin-left: 80px;
+				letter-spacing: $letterSpacing;
+				line-height: $lineHeight;
+			}
+			&-text span {
+				color: $colorGreen;
+				text-decoration: underline;
+			}
+			&-team {
+				margin: 0;
+				margin-left: 80px;
+				font: 500 14px $fontFamily;
+				letter-spacing: $letterSpacing;
+				line-height: $lineHeight;
+				color: #B3B3C6;
+			}
+		}
+	}
+}
+
 @media (min-width: 768px) {
+	.header {
+		position: relative;
+		
+	}
 	.header_menu-mobile {
 		text-align: center;
 
@@ -136,9 +224,27 @@ body {
 			width: 345px;
 		}
 	}
-	
+	.main {
+
+		.hr {
+			display: none;
+		}
+		&-links .main-links_another-pos {
+			visibility: hidden;
+		}
+		.way {
+			position: absolute;
+			top: -40px;
+		}
+	}
 }
 @media (min-width: 1024px) {
+	header {
+		.container-fluid {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
 	.header {
 		display: none;
 	}
