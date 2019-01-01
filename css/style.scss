@@ -1,5 +1,6 @@
 $letterSpacing: 0.3px;
 $fontFamily: 'Work Sans';
+$fontFamilyQuestions: 'Lora', serif;
 $colorGreen: #86BE26;
 $colorBody: #fdfdfd;
 $colorBase: #292F42;
@@ -241,6 +242,35 @@ header {
 	&-list_laptop {
 		display: none;
 	}
+	&-questions {
+		text-align: center;
+		margin-top: 52px;
+		&_title {
+			color: $colorGreen;
+			font: 600 24px $fontFamilyQuestions;
+			letter-spacing: $letterSpacing;
+			line-height: $lineHeight;
+		}
+		&_description {
+			color: #D3D4D7;
+			font: 600 10px $fontFamily;
+			line-height: $lineHeight;
+			letter-spacing: $letterSpacing;
+			text-transform: uppercase;
+			margin-bottom: 56px;
+		}
+		&_btn-get {
+			background: linear-gradient(251.96deg, #C4E58B -41.78%, #86BE26 63.15%);
+			box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+			border-radius: $borderRadius;
+			padding: 16px 40px;
+			color: $colorBody;
+			text-transform: uppercase;
+			font: 600 14px $fontFamily;
+			letter-spacing: $letterSpacing;
+			line-height: $lineHeight;
+		}
+	}
 }
 
 @media (min-width: 768px) {
@@ -292,8 +322,9 @@ header {
 				letter-spacing: $letterSpacing;
 				line-height: $lineHeight;
 				position: absolute;
+				z-index: 6;
 				top: 50%; margin-top: -12px;
-				right: 0;
+				right: 24px;
 			}
 			&-more::after {
 				content: "\2192";
@@ -305,10 +336,10 @@ header {
 				color: $colorBase;
 				transition: 0.2s;
 			}
-		}
-		&-list_laptop:hover {
-			&-more {
-				display: inline-block;
+			&:hover {
+				.main-list_laptop-more {
+					display: inline-block;
+				}
 			}
 		}
 	}

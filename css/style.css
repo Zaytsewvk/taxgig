@@ -1,22 +1,22 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000312}}
 body {
   font-family: "Work Sans", sans-serif;
   background: #fdfdfd; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000316}}
 * {
   box-sizing: border-box; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000319}}
 .disabled {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000322}}
 .active {
   display: block; }
 
 /*HEADER*/
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000334}}
 .header {
   background: #fdfdfd;
   border: 0;
@@ -30,13 +30,13 @@ body {
   padding-left: 0;
   padding-right: 0;
   box-shadow: 0px 1px 10px rgba(41, 47, 66, 0.1); }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000348}}
   .header_logo {
     display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000351}}
   .header_active_logo-img {
     width: 120%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000354}}
   .header_burger {
     width: 24px;
     height: 24px;
@@ -47,7 +47,7 @@ body {
     right: 0px;
     display: block;
     cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000364}}
   .header_burger span, .header_burger span::before, .header_burger span::after {
     width: 20px;
     height: 2px;
@@ -59,33 +59,33 @@ body {
     margin-left: -10px;
     border-radius: 5px;
     transition: .5s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000374}}
   .header_burger span::before, .header_burger span::after {
     content: "";
     display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000378}}
   .header_burger span::before {
     transform: translateY(-5px); }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000381}}
   .header_burger span::after {
     transform: translateY(5px); }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000384}}
   .header_menu {
     display: none;
     background: #292F42; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000388}}
   .header_menu-mobile {
     display: block;
     position: relative;
     padding-top: 33px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000393}}
   .header_menu-mobile a {
     display: block;
     letter-spacing: 0.3px;
     font: 600 24px "Work Sans";
     margin-bottom: 24px;
     color: #fdfdfd; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003100}}
   .header_menu-mobile button {
     width: 100%;
     padding: 16px 68px;
@@ -99,39 +99,39 @@ body {
     box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
     margin-top: 121px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003114}}
 .header_active {
   background: #292F42; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003117}}
   .header_active .header_burger span, .header_active .header_burger span::before, .header_active .header_burger span::after {
     background: #fdfdfd; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003120}}
   .header_active .header_burger span::after {
     display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003123}}
   .header_active .header_burger span {
     transform: rotate(-45deg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003126}}
   .header_active .header_burger span::before {
     transform: rotate(90deg) translateY(0); }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003129}}
   .header_active .header_menu {
     display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003132}}
   .header_active .header_menu-mobile {
     display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003136}}
 .header-LT-normal {
   display: none; }
 
 /*MAIN*/
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003141}}
 .main {
   position: relative;
   top: 100px;
   left: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003145}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003146}}
   .main-links a {
     display: block;
     color: #6F7583;
@@ -139,13 +139,13 @@ body {
     letter-spacing: 0.3px;
     line-height: 24px;
     margin-bottom: 8px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003154}}
   .main-links .main-links_another-pos {
     color: #B3B3C6; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003157}}
   .main-links .main-links_active {
     color: #292F42; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003160}}
   .main .hr {
     width: 100%;
     height: 1px;
@@ -155,39 +155,39 @@ body {
     border-radius: 1px;
     border: 0;
     margin-top: 16px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003171}}
   .main-content_way-text {
     font: 500 14px "Work Sans";
     letter-spacing: 0.3px;
     line-height: 24px;
     color: #292F42; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003176}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003177}}
   .main-content_way-text::before {
     content: "<";
     margin-right: 16px;
     font-size: 16px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003184}}
   .main .main-content_title {
     font: 600 34px "Work Sans";
     line-height: 40px;
     letter-spacing: 0.3px;
     color: #292F42;
     margin: 24px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003191}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003192}}
   .main .main-content_description-img {
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003195}}
   .main .main-content_description-text {
     color: #6F7583;
     font: 500 16px "Work Sans";
     margin-left: 80px;
     letter-spacing: 0.3px;
     line-height: 24px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003202}}
   .main .main-content_description-text span {
     color: #86BE26;
     text-decoration: underline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003206}}
   .main .main-content_description-team {
     margin: 0;
     margin-left: 80px;
@@ -195,73 +195,102 @@ body {
     letter-spacing: 0.3px;
     line-height: 24px;
     color: #B3B3C6; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003216}}
   .main-list {
     background: #fdfdfd;
     position: relative;
     border-radius: 5px;
     padding: 24px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003222}}
     .main-list_title {
       color: #292F42;
       font: 600 18px "Work Sans";
       letter-spacing: 0.3px;
       line-height: 24px;
       margin-top: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003228}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003229}}
     .main-list_description {
       color: #6F7583;
       font: 500 14px "Work Sans";
       letter-spacing: 0.3px;
       line-height: 24px;
       margin-bottom: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003236}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003237}}
   .main-list:hover {
     z-index: 5;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
     transition: 0.2s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003241}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003242}}
   .main-list_laptop {
     display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003245}}
+  .main-questions {
+    text-align: center;
+    margin-top: 52px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003248}}
+    .main-questions_title {
+      color: #86BE26;
+      font: 600 24px "Lora", serif;
+      letter-spacing: 0.3px;
+      line-height: 24px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003254}}
+    .main-questions_description {
+      color: #D3D4D7;
+      font: 600 10px "Work Sans";
+      line-height: 24px;
+      letter-spacing: 0.3px;
+      text-transform: uppercase;
+      margin-bottom: 56px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003262}}
+    .main-questions_btn-get {
+      background: linear-gradient(251.96deg, #C4E58B -41.78%, #86BE26 63.15%);
+      box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+      border-radius: 5px;
+      padding: 16px 40px;
+      color: #fdfdfd;
+      text-transform: uppercase;
+      font: 600 14px "Work Sans";
+      letter-spacing: 0.3px;
+      line-height: 24px; }
 
 @media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003248}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003278}}
   header .container-fluid {
     padding-left: 0;
     padding-right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003253}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003283}}
   .header {
     position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003256}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003286}}
   .header_menu-mobile {
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003259}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003289}}
     .header_menu-mobile button {
       width: 345px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003265}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003295}}
   .main .hr {
     display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003268}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003298}}
   .main-links .main-links_another-pos {
     visibility: hidden; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003271}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003301}}
   .main .way {
     position: absolute;
     top: -40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003276}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003306}}
   .main-content .hr {
     display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003280}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003310}}
   .main-list_mobile {
     display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003283}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003313}}
   .main-list_laptop {
     position: relative;
     display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003287}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003317}}
     .main-list_laptop-more {
       color: #86BE26;
       font: 600 14px "Work Sans";
@@ -270,39 +299,40 @@ body {
       letter-spacing: 0.3px;
       line-height: 24px;
       position: absolute;
+      z-index: 6;
       top: 50%;
       margin-top: -12px;
-      right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003298}}
+      right: 24px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003329}}
     .main-list_laptop-more::after {
       content: "\2192";
       margin-left: 21px;
       font-size: 18px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003303}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003334}}
     .main-list_laptop-more:hover {
       text-decoration: none;
       color: #292F42;
       transition: 0.2s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003310}}
-  .main-list_laptop:hover-more {
-    display: inline-block; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003340}}
+    .main-list_laptop:hover .main-list_laptop-more {
+      display: inline-block; } }
 @media (min-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003348}}
   .header {
     display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003351}}
   .header-LT-normal {
     display: block;
     box-shadow: 0px 1px 4px rgba(41, 47, 66, 0.05);
     padding-top: 20px;
     padding-bottom: 20px;
     position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003358}}
     .header-LT-normal_menu {
       text-align: right;
       margin: 4px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003362}}
     .header-LT-normal_menu a {
       text-transform: uppercase;
       font: 600 14px "Work Sans";
@@ -311,27 +341,27 @@ body {
       text-align: center;
       margin-right: 56px;
       color: #292F42; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003371}}
     .header-LT-normal_menu a:hover {
       color: #86BE26;
       transition: .2s;
       text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003376}}
     .header-LT-normal_menu_btn-login {
       border: 1px solid #292F42;
       border-radius: 5px;
       padding: 8px 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003381}}
     .header-LT-normal_menu .header-LT-normal_menu_btn-login:hover {
       background: #86BE26;
       color: #fdfdfd; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003385}}
     .header-LT-normal_menu_btn-pro::after {
       content: "\2192";
       position: relative;
       margin-left: 15px;
       font-size: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Sites\/TAXGIG\/css\/style\.scss}line{font-family:\00003391}}
     .header-LT-normal_menu .header-LT-normal_menu_btn-pro {
       margin-right: 0; } }
 
