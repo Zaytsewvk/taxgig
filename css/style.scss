@@ -3,6 +3,7 @@ $fontFamily: 'Work Sans';
 $colorGreen: #86BE26;
 $colorBody: #fdfdfd;
 $colorBase: #292F42;
+$colorMainListDescription: #6F7583;
 $borderRadius: 5px;
 $lineHeight: 24px;
 
@@ -23,12 +24,12 @@ body {
 
 	/*HEADER*/
 header {
-	box-shadow: 0px 1px 10px rgba(41, 47, 66, 0.1);
+	
 }
-.container {
-	padding-left: 22px;
-	padding-right: 22px;
-}
+// .container {
+// 	padding-left: 22px;
+// 	padding-right: 22px;
+// }
 .header {
 	background: $colorBody;
 	border: 0;
@@ -41,6 +42,7 @@ header {
 	z-index: 10;
 	padding-left: 0;
 	padding-right: 0;
+	box-shadow: 0px 1px 10px rgba(41, 47, 66, 0.1);
 
 	&_logo {
 		display: inline-block;
@@ -210,12 +212,46 @@ header {
 			}
 		}
 	}
+	&-list {
+		background: $colorBody;
+		position: relative;
+		border-radius: $borderRadius;
+		padding: 24px;
+
+		&_title {
+			color: $colorBase;
+			font: 600 18px $fontFamily;
+			letter-spacing: $letterSpacing;
+			line-height: $lineHeight;
+			margin-top: 0;
+		}
+		&_description {
+			color: $colorMainListDescription;
+			font: 500 14px $fontFamily;
+			letter-spacing: $letterSpacing;
+			line-height: $lineHeight;
+			margin-bottom: 0;
+		}
+	}
+	&-list:hover {
+		z-index: 5;
+		box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+		transition: 0.2s;
+	}
+	&-list_laptop {
+		display: none;
+	}
 }
 
 @media (min-width: 768px) {
+	header {
+		.container-fluid {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
 	.header {
 		position: relative;
-		
 	}
 	.header_menu-mobile {
 		text-align: center;
@@ -236,15 +272,48 @@ header {
 			position: absolute;
 			top: -40px;
 		}
+		&-content {
+			.hr {
+				display: block;
+			}
+		}
+		&-list_mobile {
+			display: none;
+		}
+		&-list_laptop {
+			position: relative;
+			display: block;
+
+			&-more {
+				color: $colorGreen;
+				font: 600 14px $fontFamily;
+				display: none;
+				text-transform: uppercase;
+				letter-spacing: $letterSpacing;
+				line-height: $lineHeight;
+				position: absolute;
+				top: 50%; margin-top: -12px;
+				right: 0;
+			}
+			&-more::after {
+				content: "\2192";
+				margin-left: 21px;
+				font-size: 18px;
+			}
+			&-more:hover {
+				text-decoration: none;
+				color: $colorBase;
+				transition: 0.2s;
+			}
+		}
+		&-list_laptop:hover {
+			&-more {
+				display: inline-block;
+			}
+		}
 	}
 }
 @media (min-width: 1024px) {
-	header {
-		.container-fluid {
-			padding-left: 0;
-			padding-right: 0;
-		}
-	}
 	.header {
 		display: none;
 	}
