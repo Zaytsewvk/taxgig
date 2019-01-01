@@ -1,6 +1,7 @@
 $letterSpacing: 0.3px;
 $fontFamily: 'Work Sans';
-$fontFamilyQuestions: 'Lora', serif;
+$fontFamilyLora: 'Lora', serif;
+$fontFamilyRoboto: 'Roboto', sans-serif;
 $colorGreen: #86BE26;
 $colorBody: #fdfdfd;
 $colorBase: #292F42;
@@ -84,11 +85,16 @@ header {
 	&_menu {
 		display: none;
 		background: $colorBase;
+		height: 100vh;
 	}
 	&_menu-mobile {
 		display: block;
-		position: relative;
-		padding-top: 33px;
+		// position: relative;
+		position: fixed;
+		// padding-top: 33px;
+		left: 5%;
+		right: 5%;
+		top: 20%;
 	}
 	&_menu-mobile a {
 		display: block;
@@ -247,7 +253,7 @@ header {
 		margin-top: 52px;
 		&_title {
 			color: $colorGreen;
-			font: 600 24px $fontFamilyQuestions;
+			font: 600 24px $fontFamilyLora;
 			letter-spacing: $letterSpacing;
 			line-height: $lineHeight;
 		}
@@ -272,6 +278,153 @@ header {
 		}
 	}
 }
+	/*FOOTER*/
+.footer-mobile {
+	background: url("../img/bg-footer-mb.png") 0% 0% no-repeat;
+	background-size: 100%;
+	position: relative;
+	top: 220px;
+	
+	&_title {
+		position: relative;
+		top: 84px;
+		
+		&-logo {
+			display: inline-block;
+		}
+		&-description {
+			font: 500 14px $fontFamily;
+			line-height: $lineHeight;
+			letter-spacing: $letterSpacing;
+			color: $colorBody;
+			position: relative;
+		}
+	}
+		&_stayInTouch {
+			position: relative;
+			top: 84px;
+			&-title {
+				color: #ffffff;
+				font: 700 24px $fontFamilyLora;
+				letter-spacing: $letterSpacing;
+				line-height: $lineHeight;
+				margin-top: 0;
+			}
+			&-email {
+				position: relative;
+				&_input {
+					width: 100%;
+					height: 56px;
+					padding: 16px 24px;
+					border: 1px solid rgba(41, 47, 66, 0.1);
+					border-radius: $borderRadius;
+					background: $colorBody;
+					color: #6F7583;
+					font: 500 14px $fontFamily;
+
+					&::placeholder {
+						opacity: 0.6;	
+					}
+				}
+				&_btn {
+					position: absolute;
+					top: 0;
+					right: 0;
+					width: 56px;
+					height: 56px;
+					border: 0;
+					border-radius: $borderRadius;
+					background: $colorGreen;
+					color: #ffffff;
+					font-size: 22px;
+				}
+			}
+		}
+		&_allPages, &_information, &_socials {
+			background: $colorBase;
+			position: relative;
+			margin-top: 106px;
+			&-title {
+				font: 700 18px $fontFamilyLora;
+				color: $colorBody;
+				letter-spacing: $letterSpacing;
+				line-height: $lineHeight;
+				margin: 0;
+				display: inline-block;
+				width: 90%;
+			}
+			&-openGroup {
+				position: relative;
+				width: 24px;
+				height: 24px;
+				display: inline-block;
+				top: 5px;
+				
+				& > span {
+					display: inline-block;
+					width: 16px;
+					height: 1px;
+					position: absolute;
+					top: 50%; margin-top: -0.5px;
+					left: 50%; margin-left: -8px;
+					background: $colorBody;
+
+					&::before {
+						content: "";
+						transform: rotate(90deg);
+						background: $colorBody;
+						width: 16px;
+						height: 1px;
+						display: block;
+						transition: .3s;
+					}
+				}	
+			}
+			&-openGroup_active {
+				& > span {
+					&::before {
+						transform: rotate(0deg);
+						transition: .3s;
+					}
+				}
+			}
+			&-links {
+				transform: translateY(16px);
+				& > a {
+					display: block;
+					margin-top: 8px;
+					font: 400 14px $fontFamilyRoboto;
+					line-height: $lineHeight;
+					letter-spacing: $letterSpacing;
+					color: $colorBody;
+				}
+			}
+		}
+		&_information, &_socials {
+			margin-top: 24px;
+		}
+		&_socials {
+			margin-bottom: 32px;
+		}
+	.footer-bottom {
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+		background: $colorBase;
+		& p {
+			text-transform: uppercase;
+			text-align: center;
+			font: 600 10px $fontFamily;
+			letter-spacing: $letterSpacing;
+			line-height: $lineHeight;
+			color: #ffffff;
+			margin: 0;
+			padding: 16px;
+
+			& > span {
+				color: $colorGreen;
+			}
+		}
+	}
+}
 
 @media (min-width: 768px) {
 	header {
@@ -285,6 +438,8 @@ header {
 	}
 	.header_menu-mobile {
 		text-align: center;
+		position: absolute;
+		top: 250px;
 
 		& button {
 			width: 345px;
@@ -341,6 +496,23 @@ header {
 					display: inline-block;
 				}
 			}
+		}
+	}
+		/*FOOTER*/
+	.footer-mobile {
+		background: url("../img/bg-footer-lt.png") 0% 0% no-repeat;
+		background-size: 100%;
+		top: 120px;
+
+		&_title {
+			top: 220px;
+		}
+		&_stayInTouch {
+			top: 220px;
+			height: 116px;
+		}
+		&_allPages, &_information, &_socials {
+			margin-top: 250px;
 		}
 	}
 }
