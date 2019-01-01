@@ -279,9 +279,9 @@ header {
 	}
 }
 	/*FOOTER*/
-.footer-mobile {
+.footer-mobile, .footer-laptop {
 	background: url("../img/bg-footer-mb.png") 0% 0% no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	position: relative;
 	top: 220px;
 	
@@ -359,6 +359,7 @@ header {
 				height: 24px;
 				display: inline-block;
 				top: 5px;
+				cursor: pointer;
 				
 				& > span {
 					display: inline-block;
@@ -398,6 +399,11 @@ header {
 					letter-spacing: $letterSpacing;
 					color: $colorBody;
 				}
+				& > a:hover {
+					text-decoration: none;
+					color: $colorGreen;
+					transition: .2s;
+				}
 			}
 		}
 		&_information, &_socials {
@@ -417,13 +423,16 @@ header {
 			line-height: $lineHeight;
 			color: #ffffff;
 			margin: 0;
-			padding: 16px;
+			padding: 16px 0;
 
 			& > span {
 				color: $colorGreen;
 			}
 		}
 	}
+}
+.footer-laptop {
+	display: none;
 }
 
 @media (min-width: 768px) {
@@ -501,7 +510,7 @@ header {
 		/*FOOTER*/
 	.footer-mobile {
 		background: url("../img/bg-footer-lt.png") 0% 0% no-repeat;
-		background-size: 100%;
+		background-size: cover;
 		top: 120px;
 
 		&_title {
@@ -513,6 +522,13 @@ header {
 		}
 		&_allPages, &_information, &_socials {
 			margin-top: 250px;
+
+			.disabled-LT {
+				display: none;
+			}
+			.active-LT {
+				display: block;
+			}
 		}
 	}
 }
@@ -562,6 +578,50 @@ header {
 		}
 		&_menu .header-LT-normal_menu_btn-pro {
 			margin-right: 0;
+		}
+	}
+	.footer-mobile {
+		&_title {
+			top: 320px;
+		}
+		&_stayInTouch {
+			top: 320px;
+			height: 116px;
+		}
+		&_allPages, &_information, &_socials {
+			margin-top: 350px;
+		}
+	}
+}
+@media (min-width: 1440px) {
+	.footer-mobile {
+		display: none;
+	}
+	.footer-laptop {
+		background: url("../img/bg-footer-lt.png") 0% 0% no-repeat;
+		background-size: cover;
+		top: 120px;
+		display: block;
+		&_title {
+			top: -80px;
+		}
+		&_stayInTouch {
+			top: 420px;
+			height: 116px;
+		}
+		&_allPages, &_information, &_socials {
+			margin-top: 450px;
+			left: 125px;
+		}
+	}
+}
+@media (min-width: 2560px) {
+	.footer-laptop {
+		&_stayInTouch {
+			top: 620px;
+		}
+		&_allPages, &_information, &_socials {
+			margin-top: 650px;
 		}
 	}
 }
